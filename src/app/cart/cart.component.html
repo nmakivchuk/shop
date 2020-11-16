@@ -1,2 +1,6 @@
-<p>cart works!</p>
-
+<div class="cart-wrap">
+    <div class="cart-item" *ngFor="let product of cart">
+        <h3>{{product.name}}</h3>
+        <h2>{{product.price}}</h2>
+    </div>
+</div>
